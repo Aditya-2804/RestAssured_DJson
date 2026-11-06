@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cookTimeMinutes": {
+      "type": "number"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "cuisine": {
+      "type": "string"
+    },
+    "caloriesPerServing": {
+      "type": "number"
+    },
+    "userId": {
+      "type": "number"
+    },
+    "rating": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "ingredients",
+    "instructions",
+    "cookTimeMinutes",
+    "difficulty",
+    "cuisine",
+    "caloriesPerServing",
+    "userId",
+    "rating"
+  ]
+}
